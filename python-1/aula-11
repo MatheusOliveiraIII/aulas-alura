@@ -1,0 +1,21 @@
+Tipagem de variáveis
+
+"Sabendo que o Python usa uma tipagem dinâmica, qual alternativa abaixo é ?"
+
+Se vc leu os outros arquivos é meio obvio que a resposta é
+
+Uma variável só passa a existir quando atribuímos um valor.
+
+"Não há declaração de variáveis estáticas em Python, como em linguagens como C, Java ou C#. Nessas linguagens, indicamos o tipo e o nome das variáveis e ela já passa a existir.
+
+Por exemplo:
+
+int idade;COPIAR CÓDIGO
+Repare que só declaramos o tipo e o nome da variável, sem ter atribuído o valor.
+
+Em Python, a variável só passa a existir quando atribuímos um valor, como no exemplo abaixo:
+
+idade = 12COPIAR CÓDIGO
+Isso faz todo sentido, já que não temos uma declaração explícita do tipo, como na linguagem Java ou C#. O interpretador do Python não tem como assumir um tipo."
+
+por esse motivo.
