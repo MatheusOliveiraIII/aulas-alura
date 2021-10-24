@@ -1,0 +1,13 @@
+ Para saber mais: Snake_Case
+
+ aqui ele vai explicar que o python usa o padrao Snake_Case
+ 
+ Um exemplo de variáveis em Snake_Case são:
+
+ idade_esposa = 20
+ perfil_vip = 'Flávio Almeida'
+ recibos_em_atraso = 30
+
+  ai ele fala que em outras linguagens é o padrao CamelCase
+
+  mas nesse curso ele vai seguir o padrao Snake_Case até porque  é um curso de python
