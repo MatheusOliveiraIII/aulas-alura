@@ -1,0 +1,102 @@
+Comparando variáveis
+
+aqui vai começar uma serie de copy paste o famoso crtl+c crtl+v
+
+porque ele vai falar dos codigos pra colocar la no pycharm pro jogo
+
+"A ideia do nosso jogo é termos que acertar um número secreto. Quando o programa estiver rodando, teremos que digitar um número e o programa dirá se acertamos ou erramos o número, com várias tentativas e níveis.
+
+Vamos começar definindo esse número secreto (mais à frente vamos ver como gerar um número aleatório):
+
+print("*********************************")
+print("Bem vindo ao jogo de Adivinhação!")
+print("*********************************")
+
+numero_secreto = 42COPIAR CÓDIGO
+Capturando a entrada do usuário
+Agora, para que o usuário possa digitar o número, vamos utilizar a função input, ela trava o programa até que o usuário digite algo e tecle ENTER. Ela recebe por parâmetro a mensagem que será exibida no console e nos retorna o que o usuário digitou, logo vamos guardar esse resultado em uma variável, que chamaremos de chute:
+
+print("*********************************")
+print("Bem vindo ao jogo de Adivinhação!")
+print("*********************************")
+
+numero_secreto = 42
+
+chute = input("Digite o seu número: ")COPIAR CÓDIGO
+Para testar, vamos ao final do programa imprimir o conteúdo da variável chute, para mostrar realmente que o seu conteúdo será o que o usuário digitou:
+
+print("*********************************")
+print("Bem vindo ao jogo de Adivinhação!")
+print("*********************************")
+
+numero_secreto = 42
+
+chute = input("Digite o seu número: ")
+print("Você digitou: ", chute)COPIAR CÓDIGO
+Podemos rodar o programa e ver que realmente é impresso o valor que digitarmos.
+
+Comparando valores
+Agora que conseguimos capturar o que o usuário digitou, precisamos comparar esse valor com o número secreto, para poder dizer ao usuário se ele digitou o número correto ou não. Bom, já sabemos o número secreto que o chute do usuário, então vamos comparar os dois, algo como:
+
+se numero_secreto igual chute
+    print("Você acertou!")
+senão
+    print("Você errou!")COPIAR CÓDIGO
+Só que as palavras se, senão e igual não funcionam no mundo Python, temos que respeitar a sua sintaxe. O se em Python é if, o igual é a comparação == e o senão é else. Então, resumindo a sintaxe do Python é:
+
+if (condição):
+    executa código caso a condição seja verdadeira
+else:
+    executa código caso a condição seja falsaCOPIAR CÓDIGO
+Mas precisamos prestar atenção a alguns detalhes. É uma recomendação que a condição fique dentro de parênteses (apesar de também funcionar sem); para marcar o fim da instrução e início de um bloco (o código que será executado caso a condição seja verdadeira ou falsa), é utilizado dois pontos (:), e esse bloco obrigatoriamente deve estar 4 espaços (ou um TAB) mais à direita. Então o código ficará assim:
+
+if (numero_secreto == chute):
+    print("Você acertou!")
+else:
+    print("Você errou!")COPIAR CÓDIGO
+Podemos rodar o programa e verificar que mesmo se digitarmos o número certo, recebemos a mensagem Você errou. Porque?
+
+Convertendo uma string para número inteiro
+Isso acontece porque a função input nos retorna uma string, pois qualquer coisa pode ser digitada, não é garantido que o usuário irá digitar um número. Como não há essa garantia, o retorno é uma string.
+
+Já a variável numero_secreto é um número! Logo, do tipo inteiro. Então estamos testando a igualdade de um inteiro com uma string, logo essa comparação sempre será falsa, apesar da string representar um número inteiro. Para resolver isso precisamos mudar o tipo da variável, convertendo uma string em número inteiro.
+
+Para isso, o Python possui a função int, que recebe um valor e o converte para inteiro, justamente o que queremos. Logo, vamos utilizá-la no nosso código:
+
+print("*********************************")
+print("Bem vindo ao jogo de Adivinhação!")
+print("*********************************")
+
+numero_secreto = 42
+
+chute_str = input("Digite o seu número: ")
+print("Você digitou: ", chute_str)
+chute = int(chute_str)
+
+if (numero_secreto == chute):
+    print("Você acertou!")
+else:
+    print("Você errou!")COPIAR CÓDIGO
+Agora a comparação é feita corretamente! Para sair do bloco do else, basta escrevermos algo depois dele, sem a indentação de 4 espaços:
+
+print("*********************************")
+print("Bem vindo ao jogo de Adivinhação!")
+print("*********************************")
+
+numero_secreto = 42
+
+chute_str = input("Digite o seu número: ")
+print("Você digitou: ", chute_str)
+chute = int(chute_str)
+
+if (numero_secreto == chute):
+    print("Você acertou!")
+else:
+    print("Você errou!")
+
+print("Fim do jogo")"
+
+pronto 
+
+
+
