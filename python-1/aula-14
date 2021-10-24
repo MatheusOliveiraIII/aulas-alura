@@ -1,0 +1,29 @@
+ Instalando o PyCharm
+ Baixe o PyCharm no site oficial. É importante escolher o seu sistema operacional e usar a  versão Community da IDE. Após download instale o PyCharm no seu computador.
+
+ Criando o primeiro projeto
+ Abra o PyCharm e defina o diretório e o nome do projeto no campo Location. Para o nosso curso,  vamos usar o nome jogos:
+
+ Projeto
+
+ Primeiro arquivo
+ Agora crie o primeiro arquivo Python. Clique com o botão direito do mouse em cima do projeto     e  eselecione New -> Python File:
+
+ New Python File
+
+ Chame o arquivo de adivinhacao.py:
+
+ New File
+
+ No arquivo, coloque uma mensagem simples:
+
+ print("Bem vindo ao jogo de Adivinhação!")COPIAR CÓDIGO
+ Rodando Python
+ Agora rode o primeiro programa em Python, clicando em Run -> Run... no menu superior:
+
+ Run File
+
+ O console do PyCharm é aberto e exibe a saída do nosso programa:
+
+ aqui eu coloquei tudo que ele falou basicamente um crtl+c crtl+v 
+ basicamente ele so falou do projeto do PyCharm
