@@ -1,0 +1,26 @@
+ Onde foi que ela errou?
+ 
+ é tipo a 16 so que ao inves de ter alternativa é pra você falar no que a Fernanda errou no codigo declaramos
+ 
+ "Fernanda, colocando em prática o que aprendeu neste capítulo, escreveu o seguinte código para testar se realmente aprendeu a criar uma condição if em seu código:
+
+minha_idade = 26
+idade_namorado = 25
+if(minha_idade == idade_namorado)
+    print('temos idades iguais')
+else:
+    print('temos idades diferentes')COPIAR CÓDIGO
+O problema é que o código dela não funciona. Consegue enxergar onde está o problema? Para quem está começando com Python, pode ser bem sutil. Descobriu? Clique em Ver Opinião do Instrutor, que você verá a resposta do instrutor."
+
+resposta do instrutor 
+
+"O problema é que para indicar o início do bloco if, é necessário utilizar dois pontos (:). Veja que no código dele faltou os dois pontos. O código corrigido ficará assim:
+
+minha_idade = 26
+idade_namorado = 25
+if(minha_idade == idade_namorado):
+    print('temos idades iguais')
+else:
+    print('temos idades diferentes')COPIAR CÓDIGO
+Importante também é sempre usar a indentação correta. Ou seja, depois da linha com o if, devemos usar 4 espaços ou pressionar a tecla tab para começar o novo bloco de código."
+
