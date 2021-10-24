@@ -1,0 +1,9 @@
+ aqui ele vai instalar e conhecer o pycharm porque em um futuro não muito distante nos vamo criar um projeto mas não quero spoilers
+
+ "O projeto ficará sendo exibido na esquerda, e para criar o primeiro arquivo Python dentro dele, basta clicar com o botão direito do mouse em cima dele e clicar em New -> Python File, vamos colocar o nome do arquivo de adivinhacao.py.
+
+ A fim de testes, vamos imprimir uma mensagem simples:
+
+ print("Bem vindo ao jogo de Adivinhação!"
+
+ 
